@@ -195,6 +195,7 @@ Azure resource deletion and final cost verification remain outstanding at this d
 ## Documentation
 
 - [System architecture](docs/architecture/system-architecture.md)
+- [Security architecture diagram](docs/architecture/security-flow.md)
 - [Threat register](docs/threat-model/threat-register.md)
 - [Credential lifecycle and recovery](docs/operations/certificate-lifecycle.md)
 - [Validation report](docs/validation/validation-report.md)
@@ -205,3 +206,10 @@ Azure resource deletion and final cost verification remain outstanding at this d
 Request data is synthetic; Azure resources and identities are real.
 
 This personal laboratory does not claim production readiness, regulatory certification, comprehensive threat coverage, or guaranteed availability.
+
+## Licensing
+
+- Original Python source code, automated tests, and synthetic code examples in `src/`, `tests/`, and `scripts/`: [MIT Code License](CODE-LICENSE.md).
+- Original documentation, diagrams, research, and security assessments: [All Rights Reserved](docs/NOTICE.md).
+
+Third-party software and materials retain their respective licenses.
