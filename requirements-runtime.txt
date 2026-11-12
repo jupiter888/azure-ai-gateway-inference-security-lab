@@ -1,0 +1,11 @@
+# Project 9 — Gateway & backend runtime dependencies
+# Direct dependencies pinned for the audited build.
+# Transitive dependency locking remains a separate audit step.
+
+fastapi==0.162.4
+uvicorn==0.54.0
+pydantic==2.14.3
+PyJWT[crypto]==2.15.1
+cryptography==50.0.2
+python-dotenv==1.2.4
+httpx==0.28.1

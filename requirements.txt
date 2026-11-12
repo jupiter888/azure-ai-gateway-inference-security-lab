@@ -1,0 +1,10 @@
+# Project 9 — Development and validation dependencies
+# Python 3.11+
+
+-r requirements-runtime.txt
+
+azure-identity==1.27.0
+azure-core==1.41.0
+msal==1.39.0
+pytest==9.2.0
+pytest-cov==7.1.0

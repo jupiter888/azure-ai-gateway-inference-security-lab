@@ -1,0 +1,46 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+
+# Azure and Terraform local state
+.azure/
+.terraform/
+.terraform.lock.hcl
+
+# macOS
+.DS_Store
+
+# Local build artifacts
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Local evidence containing potentially sensitive data
+evidence/private/
+data/private/

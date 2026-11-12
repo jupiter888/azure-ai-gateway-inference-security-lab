@@ -1,0 +1,44 @@
+# Project 9 — Docker build-context restrictions
+
+# Deny all files by default.
+**
+
+# Allow application source and runtime dependency files.
+!src/
+!src/**
+!requirements-runtime.txt
+!requirements-runtime.lock
+!Dockerfile
+!Dockerfile.backend
+
+# Exclude Python caches and compiled files.
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# Exclude credentials and environment files at any depth.
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+
+# Exclude local evidence and test data.
+evidence/
+data/
+tests/
+scripts/
+
+# Exclude Azure and Terraform state.
+.azure/
+.terraform/
+**/*.tfstate
+**/*.tfvars
+
+# Exclude virtual environments.
+.venv/
+venv/
+
+# Exclude Git metadata.
+.git/
